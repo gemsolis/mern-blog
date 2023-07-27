@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=PT+Sans+Narrow&display=swap");
+
+body {
+  width: 100%;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  background-color: #4f4f4f;
+  color: #fff;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #a9a9a9;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  padding: 5px 10px;
+  background-color: #009ab9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+a {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  background-color: #000000;
+  padding: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header a.logo {
+  font-weight: bold;
+}
+
+header nav {
+  display: flex;
+  gap: 15px;
+}
+
+div.post {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+div.post a {
+  color: #0084ff;
+  text-decoration: none;
+}
+
+div.post div.img-wrapper {
+  width: 100%;
+  margin-right: 30px;
+}
+
+div.post div.img-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+
+div.post div.texts h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+div.post div.texts p {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+div.post p.info span {
+  margin: 5px 5px;
+  color: #aaa;
+  font-weight: bold;
+}
+
+div.post p.info span.author {
+  color: #000000;
+  font-weight: bolder;
+}
+
+div.login,
+div.register {
+  background-color: #585858;
+  padding: 50px 20px;
+  width: 50%;
+  border-radius: 10px;
+  border-top: 5px solid #000;
+  text-align: center;
+}
+
+div.login h2,
+div.register h2 {
+  margin-bottom: 20px;
+}
+
+form.login-form,
+form.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form.create-post {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form.create-post input,
+div.quill {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+form.create-post button {
+  width: 100%;
+  font-weight: 900;
+  padding: 10px 0;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  background-color: #222;
+  bottom: 0;
+  padding: 20px;
+}
+
+div.post-page {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+div.post-page h2 {
+  margin: 20px 0;
+  text-align: center;
+}
+
+div.post-page p {
+  margin: 20px 0;
+  text-align: justify;
+}
+
+div.post-page-info {
+  color: #b6b6b6;
+  font-weight: 900;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.post-image-wrapper img {
+  margin: 50px 0;
+}
+
+div.post-page-info div {
+  margin-bottom: 5px;
+}
+
+.edit-btn {
+  color: #f6f6f6;
+  background-color: #222;
+  padding: 5px 20px;
+  margin: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  div.post {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #fff;
+  }
+
+  div.post div.img-wrapper {
+    width: 100%;
+    margin-right: 20px;
+  }
+
+  div.post div.img-wrapper img {
+    object-fit: cover;
+  }
+
+  div.post div.texts h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  div.post div.texts p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-align: center;
+    margin: 20px;
+  }
+
+  div.post p.info span {
+    margin: 5px 5px;
+    color: #aaa;
+    font-weight: bold;
+  }
+
+  div.post p.info span.author {
+    color: #ffeac2;
+    font-weight: bolder;
+  }
+}
